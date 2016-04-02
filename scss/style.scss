@@ -1,0 +1,90 @@
+#header {
+	box-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.2);
+	border-bottom: none;
+}
+#header .logo {
+    background: url("/img/logos/8p-2016-logo-text-2.png") no-repeat right center;
+    height: 74px;
+    width: 295px;
+}
+.nav__header-links {
+	background: #58b7d9;
+}
+.nav__header-links a {
+	color: white;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 43px;
+    padding: 10px 15px;
+}
+.nav__header-links a:first-child {
+	padding-left: 0;
+}
+.nav__header-links a:last-child {
+	padding-right: 0;
+}
+#content-new {
+	margin-top: 179px;
+}
+#content {
+	margin-top: 0;
+}
+#block--main {
+	height: 500px;
+    background: url(../img/new-design/bg-block-1.jpg) no-repeat center -144px;
+}
+#block--main .block--main__left {
+	width: 381px;
+	height: 161px;
+	background-color: rgba(255,255,255,0.49);
+	border-radius: 10px;
+
+	margin-top: 26px;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 19px 17px;
+}
+#block--main .block--main__left p {
+	color: #2a2a2a;
+	margin: 0;
+}
+#block--main .block--main__left a {
+	color: black;
+	text-decoration: underline;
+}
+#block--main .block--main__right {
+	position: relative;
+}
+.top-location {
+	position: absolute;
+	left: 74px;
+	top: 39px;
+    width: 410px;
+    height: 53px;
+    background-color: white;
+    border-radius: 10px;
+}
+.top-location-label {
+	position: absolute;
+	top: 52px;
+    padding: 3px 12px;
+	background-color: #66c8eb;
+	border-radius: 5px;
+	text-shadow: 0 2px 0 rgba(76, 175, 210, 0.75);
+	color: white;
+	/*font-family: 'PFAgoraSansPro';*/
+	font-size: 12px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	z-index: 10;
+}
+.top-location-date {
+
+}
+.m-b-12 {
+	margin-bottom: 12px;
+}
