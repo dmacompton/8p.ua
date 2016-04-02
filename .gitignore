@@ -80,3 +80,6 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+.idea/codeStyleSettings.xml
+.idea/jsLinters
+.idea/watcherTasks.xml
