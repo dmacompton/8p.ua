@@ -22,11 +22,12 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:100,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
         
         <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/font-awesome.min.css?v=3.2.1" rel="stylesheet" type="text/css"/>
-        <link href="./css/style_new_design.css?14082014" rel="stylesheet" type="text/css"/>
+        <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/style_new_design.css" rel="stylesheet" type="text/css"/>
         <link href="./css/colorbox/colorbox.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/pages/home.css?12012014" rel="stylesheet" type="text/css"/>
-        
+        <link href="./css/pages/home.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="./css/compton.css">
+
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -153,7 +154,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row top-level-2">
+                <div class="row m-b-12">
                     <div class="span15 inner-level-1">
                         <div class="row">
                             <div class="span7">
@@ -163,18 +164,29 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="span5">
+                            <div class="span8">
                                 <div class="pull-right">
                                     <a href="http://8p.ua/order/" class="buy-btn">Заказать билет</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="span15 inner-level-2">
-                        <div style="background-color: #58b7d9"></div>
-                        <script>var isHiddenTimeline = true;</script>            </div>
+                </div>
+            </div>
+            <nav class="nav__header-links">
+                <div class="container header">
+                    <div class="row">
+                        <a onclick="scrollTo('#block--4group')">­Как это будет?</a>
+                        <a onclick="scrollTo('#block--ticket')">Почем билеты?</a>
+                        <a href="http://8p.ua/program">Программа</a>
+                        <a href="http://8p.ua/speakers/">Докладчики</a>
+                        <a href="http://8p.ua/for-partners/">Для партнеров и СМИ</a>
+                        <a href="http://8p.ua/faq/">FAQ</a>
+                        <a href="http://8p.ua/place/">Место</a>
+                        <a href="http://8p.ua/contacts/">Контакты</a>
                     </div>
                 </div>
+            </nav>
             </header>
             <div id="google-map-block" class="google-map hidden-block">
                 <button type="button" class="close" title="Закрыть карту">
@@ -182,7 +194,540 @@
                 </button>
                 <div id="map-canvas" style="width:100%; height: 100%;"></div>
             </div>
-            
+            <div id="content-new">
+                <div id="block--main">
+                    <div class="container">
+                        <div class="span7">
+                            <div class="block--main__left">
+                                <p>Самая крутая конференция на берегу Черного моря.</p>
+                                <p>4 параллельных потока для SEO и PPC-спецов, представителей бизнеса, интернет-магазинов, стартапов, UGC-проектов.</p>
+                                <p>Это 40 часов практической информации и целый день для отличного загара ;)</p>
+                                <a href="#">Подробнее »</a>
+                            </div>
+                        </div>
+                        <div class="span8">
+                            <div class="block--main__right">
+                                <div>
+                                    <span class="top-location-label">На карте</span>
+                                    <div class="top-location">
+                                        <div class="top-location-date">
+                                            <span class="t-l-date">15</span>
+                                            <span class="t-l-mounth">июля</span>
+                                        </div>
+                                        <div class="top-location-place">
+                                            <div class="t-l-first">Пляжный комплекс «Otrada beach club»</div>
+                                            <div class="t-l-second">г.ОДЕССА, ул. ВИЦЕ-АДМИРАЛА АЗАРОВА, 1</div>
+                                            <a class="t-l-place" target="_blank" href="https://www.google.com/maps/place/Otrada+Beach+club/@46.466908,30.761856,15z/data=!4m2!3m1!1s0x0000000000000000:0x78cbbe22ef5479a0?hl=uk-UA"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="сarousel-video" class="carousel slide t-l-сarousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="https://www.youtube.com/embed/ljEqdyzgY8I?rel=0&wmode=transparent&autoplay=1" class="video" target="_blank">
+                                            <img src="/img/slider/8p-2015-overview.png"/>
+                                            <span class="play-video-icon"></span>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="https://www.youtube.com/embed/HtPYK61IXGI?rel=0&wmode=transparent&autoplay=1" class="video" target="_blank">
+                                            <img src="/img/slider/8p-2015-energy-supply.png"/>
+                                            <span class="play-video-icon"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#сarousel-video" data-slide-to="0" class="active"></li>
+                                        <li data-target="#сarousel-video" data-slide-to="1"></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block--4group">
+                    <div class="container">
+                        <div class="row">
+                            <div class="blocks--title">4 конференции в одной</div>
+                        </div>
+                        <div class="block--4group__octagon"></div>
+                    </div>
+                    <div class="block--4group__figures">
+                        <div class="block--4group__figure">
+                            <img class="block--4group__icon" src="img/new-design/analytics.png" alt="analytics">
+                            <p class="block--4group__figure--title">Арбитраж трафика</p>
+                            <ul>
+                                <li><img src="./img/new-design/dot.png" alt="">как заработать на трафике</li>
+                                <li><img src="./img/new-design/dot.png" alt="">нестандартные SEO-техники</li>
+                                <li><img src="./img/new-design/dot.png" alt="">работа с CPA-сетями</li>
+                            </ul>
+                            <p class="block--4group__figure--audience">Аудитория:</p>
+                            <p class="block--4group__figure--audience--text">SEO-специалисты, арбитражники, вебмастера</p>
+                        </div> 
+                        <div class="block--4group__figure">
+                            <img class="block--4group__icon" src="img/new-design/settings.png" alt="settings">
+                            <p class="block--4group__figure--title">Сервисы для SEO и РРС</p>
+                            <ul>
+                                <li><img src="./img/new-design/dot.png" alt="">автоматизация в SEO и PPC</li>
+                                <li><img src="./img/new-design/dot.png" alt="">неочевидные возможности ведущих сервисов</li>
+                                <li><img src="./img/new-design/dot.png" alt="">результативные кейсы</li>
+                            </ul>
+                            <p class="block--4group__figure--audience">Аудитория:</p>
+                            <p class="block--4group__figure--audience--text">SEO и РРС специалисты, представители SaaS-продуктов</p>
+                        </div>
+                        <div class="block--4group__figure">
+                            <img class="block--4group__icon" src="img/new-design/navigation.png" alt="navigation">
+                            <p class="block--4group__figure--title">Продвижение сайтов <br> и приложений на США и Европу</p>
+                            <ul>
+                                <li><img src="./img/new-design/dot.png" alt="">специфика заработка <br> на западных рынках</li>
+                                <li><img src="./img/new-design/dot.png" alt="">мобильная коммерция <br> в развитых странах</li>
+                                <li><img src="./img/new-design/dot.png" alt="">кейсы от тех, кто уже там</li>
+                            </ul>
+                            <p class="block--4group__figure--audience">Аудитория:</p>
+                            <p class="block--4group__figure--audience--text">представители бизнес-проектов, SaaS-продуктов, стартапов, разработчики мобильных приложений</p>
+                        </div>
+                        <div class="block--4group__figure">
+                            <img class="block--4group__icon" src="img/new-design/cart.png" alt="cart">
+                            <p class="block--4group__figure--title">Продвижение <br> интернет-магазина <br> от А до Я</p>
+                            <ul>
+                                <li><img src="./img/new-design/dot.png" alt="">что учесть на стадии разработки</li>
+                                <li><img src="./img/new-design/dot.png" alt="">как продвигать и развивать проект</li>
+                                <li><img src="./img/new-design/dot.png" alt="">как вернуть и удержать клиента</li>
+                            </ul>
+                            <p class="block--4group__figure--audience">Аудитория:</p>
+                            <p class="block--4group__figure--audience--text">представители интернет-магазинов, услуг онлайн</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div id="block--speakers">
+                    <div class="container">
+                        <div class="row">
+                            <div class="blocks--title">Докладчики</div>
+                            <div class="caroufredsel" data-type="carousel" data-cl-responsive="1" data-cl-auto="0" data-cl-circular="0" data-cl-items-min="5" data-cl-items-max="5" data-cl-auto-timeout="4000">
+                                <span class="cfs-prev cfs-browse" style="display: block;">‹</span>
+                                <span class="cfs-next cfs-browse" style="display: block;">›</span>
+                                <div class="wrapper">
+                                    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 875px; height: 213px; margin: 0px; overflow: hidden;">
+                                        <div class="carousel-items" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 8925px; height: 213px; z-index: auto;">
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#aleksey-chekushin">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/aleksey-chekushin.gif" alt="Алексей Чекушин">
+                                                    <div>Алексей Чекушин</div>
+                                                </a>
+                                                <div>Руководитель отдела трафикового продвижения</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#aleksandr-fedotov">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/aleksandr-fedotov.gif" alt="Александр Федотов">
+                                                    <div>Александр Федотов</div>
+                                                </a>
+                                                <div>Руководитель отдела комплексных проектов</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#aleksandr-kolb">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/aleksandr-kolb.gif" alt="Александр Колб">
+                                                    <div>Александр Колб</div>
+                                                </a>
+                                                <div>Генеральный директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#maksim-uvarov">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/maksim-uvarov.gif" alt="Максим Уваров">
+                                                    <div>Максим Уваров</div>
+                                                </a>
+                                                <div>Сооснователь и директор по развитию</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#elizaveta-grudinkina">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/elizaveta-grudinkina.gif" alt="Елизавета Грудинкина">
+                                                    <div>Елизавета Грудинкина</div>
+                                                </a>
+                                                <div>Управляющий партнер</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#stanislav">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/stanislav.gif" alt="Станислав Гайдар">
+                                                    <div>Станислав Гайдар</div>
+                                                </a>
+                                                <div>Ведущий специалист по работе с крупными проектами</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#vvedenskiy-evgeniy">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/vvedenskiy-evgeniy.gif" alt="Евгений Введенский">
+                                                    <div>Евгений Введенский</div>
+                                                </a>
+                                                <div>Коммерческий директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#fedor-virin">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/fedor-virin.gif" alt="Федор Вирин">
+                                                    <div>Федор Вирин</div>
+                                                </a>
+                                                <div>Партнер</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#andrey-logvin">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/andrey-logvin.gif" alt="Андрей Логвин">
+                                                    <div>Андрей Логвин</div>
+                                                </a>
+                                                <div>Генеральный директор и сооснователь</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#aleksandr-kulik">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/aleksandr-kulik.gif" alt="Александр Кулик">
+                                                    <div>Александр Кулик</div>
+                                                </a>
+                                                <div>Директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#dmitriy-panasyuk">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/dmitriy-panasyuk.gif" alt="Дмитрий Панасюк">
+                                                    <div>Дмитрий Панасюк</div>
+                                                </a>
+                                                <div>Сервис-директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#vlad-andrusenko">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/vlad-andrusenko.gif" alt="Влад Андрусенко">
+                                                    <div>Влад Андрусенко</div>
+                                                </a>
+                                                <div>Product Manager</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#evgeniy-shevchenko">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/evgeniy-shevchenko.gif" alt="Евгений Шевченко">
+                                                    <div>Евгений Шевченко</div>
+                                                </a>
+                                                <div>Генеральный директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#viktor-karpenko">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/viktor-karpenko.gif" alt="Виктор Карпенко">
+                                                    <div>Виктор Карпенко</div>
+                                                </a>
+                                                <div>Руководитель</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#yuriy-nikolaev">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/yuriy-nikolaev.gif" alt="Юрий Николаев">
+                                                    <div>Юрий Николаев</div>
+                                                </a>
+                                                <div>Медиадиректор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#denis-kuklin">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/denis-kuklin.gif" alt="Денис Куклин">
+                                                    <div>Денис Куклин</div>
+                                                </a>
+                                                <div>Руководитель отдела email-маркетинга</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#vladimir-sakharov">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/vladimir-sakharov.gif" alt="Владимир Сахаров">
+                                                    <div>Владимир Сахаров</div>
+                                                </a>
+                                                <div>Генеральный директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#anton-voronyuk">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/anton-voronyuk.gif" alt="Антон Воронюк">
+                                                    <div>Антон Воронюк</div>
+                                                </a>
+                                                <div>Руководитель</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#vladimir-galika">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/vladimir-galika.gif" alt="Владимир Галика">
+                                                    <div>Владимир Галика</div>
+                                                </a>
+                                                <div>Digital Strategy Director</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#oleg-salamakha">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/oleg-salamakha.gif" alt="Олег Саламаха">
+                                                    <div>Олег Саламаха</div>
+                                                </a>
+                                                <div>CEO</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#yuliya-kurilova">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/yuliya-kurilova.gif" alt="Юлия Курилова">
+                                                    <div>Юлия Курилова</div>
+                                                </a>
+                                                <div>Основатель</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#vladislav-flaks">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/vladislav-flaks.gif" alt="Владислав Флакс">
+                                                    <div>Владислав Флакс</div>
+                                                </a>
+                                                <div>Директор</div>
+                                            </div>
+                                            <div class="block--speakers__speaker">
+                                                <a href="http://2014.8p.ua/program/#stanislav-stavskiy">
+                                                    <img style="width: 133px; height: 133px;" src="http://2014.8p.ua/img/speakers/4/stanislav-stavskiy.gif" alt="Станислав Ставский">
+                                                    <div>Станислав Ставский</div>
+                                                </a>
+                                                <div>Руководитель группы в отделе маркетинга</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block--8reason">
+                    <div class="container">
+                        <div class="row">
+                            <div class="blocks--title">8 причин посетить 8Р</div>
+                            <div class="span15">
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/1reason.png" alt="Причина 1">
+                                        <p class="reason--title">Панорамная выставка</p>
+                                        <ul>
+                                            <li>900 кв.м. для стендов</li>
+                                            <li>плотный, активный трафик</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/2reason.png" alt="Причина 2">
+                                        <p class="reason--title">Профессиональная тусовка</p>
+                                        <ul>
+                                            <li>топовый бизнес - CEO и ЛПРы</li>
+                                            <li>специалисты-маркетологи</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/3reason.png" alt="Причина 3">
+                                        <p class="reason--title">Практический контент</p>
+                                        <ul>
+                                            <li>33 доклада</li>
+                                            <li>2 круглых стола</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/4reason.png" alt="Причина 4">
+                                        <p class="reason--title">Полезные контакты</p>
+                                        <ul>
+                                            <li>новые клиенты и партнеры</li>
+                                            <li>доступ к базе участников</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/5reason.png" alt="Причина 5">
+                                        <p class="reason--title">Правильная атмосфера</p>
+                                        <ul>
+                                            <li>зоны для нетворкинга</li>
+                                            <li>неформальная обстановка</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/6reason.png" alt="Причина 6">
+                                        <p class="reason--title">Плюшки от партнеров</p>
+                                        <ul>
+                                            <li>сюрпризы в сумках участников</li>
+                                            <li>розыгрыши призов</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/7reason.png" alt="Причина 7">
+                                        <p class="reason--title">Pool-party</p>
+                                        <ul>
+                                            <li>30 кв. м бассейна</li>
+                                            <li>живая музыка и DJ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="block--8reason--container">
+                                    <div class=" reason">
+                                        <img src="./img/new-design/8reason.png" alt="Причина 8">
+                                        <p class="reason--title">Пешком до моря</p>
+                                        <ul>
+                                            <li>секция прямо на пляже</li>
+                                            <li>тапчаны и шезлонги</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block--ticket">
+                    <div class="container">
+                        <div class="row">
+                            <div class="blocks--title">почем билеты?</div>
+                            <div class="block--ticket--container">
+                                <div>
+                                    <p class="title">Обычный билет</p>
+                                    <ul>
+                                        <li>welcome-coffee</li>
+                                        <li>посещение докладов</li>
+                                        <li>пакет участника с раздаточными материалами</li>
+                                        <li>доступ к материалам конференции</li>
+                                        <li>вход на афтепати</li>
+                                    </ul>
+                                    <a href="http://8p.ticketforevent.com/" target="_blank">До 15 июня: <span>1100</span> грн</a>
+                                </div>
+                            </div>
+                            <div class="block--ticket--container">
+                                <div>
+                                    <p class="title">Полный фарш</p>
+                                    <ul>
+                                        <li>welcome-coffee</li>
+                                        <li>посещение докладов</li>
+                                        <li>пакет участника с раздаточными материалами</li>
+                                        <li>доступ к материалам конференции</li>
+                                        <li>вход на афтепати</li>
+                                        <li>обед – шведский стол</li>
+                                        <li>усиленный кофе-брейк</li>
+                                        <li>доступ в лаундж-зону со спикерами</li>
+                                    </ul>
+                                    <a href="http://8p.ticketforevent.com/" target="_blank">До 15 июня: <span>1100</span> грн</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block--alter">
+                    <div class="container">
+                        <div class="bg-animate">
+                            <div class="blocks--title">Альтернативная программа</div>
+                            <div class="flying-icon fl-1"></div>
+                            <div class="flying-icon fl-2"></div>
+                            <div class="flying-icon fl-3"></div>
+                            <div class="flying-icon fl-4"></div>
+                            <div class="flying-icon fl-5"></div>
+                            <div class="flying-icon fl-6"></div>
+                            <div class="flying-icon fl-7"></div>
+                            <div class="flying-icon fl-8"></div>
+                            <div class="block--alter--text">
+                                <p>Только на 8Р вы сможете:</p>
+                                <span>&nbsp;</span>
+                                <ul>
+                                    <li>заплыть за буйки</li>
+                                    <li>загорать на пляже</li>
+                                    <li>покататься на канатной дороге</li>
+                                    <li>проехаться по побережью</li>
+                                    <li>заказать песню диджею</li>
+                                    <li>понять, в чем «самый цимес»</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block--serious">
+                    <p>А вообще у нас серьезная конференция</p>
+                    <a target="_blank" href="#">Скачать информацию для начальника</a>
+                </div>
+                <div id="block--parners">
+                    <div class="container">
+                        <div class="row">
+                            <div class="partners">
+                                <p>Спонсоры</p>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/www.liga.net.png" alt="www.liga.net">
+                                        </div>
+                                    </a>
+                                    <span>liga.net</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/prom.ua.png" alt="prom.ua">
+                                        </div>
+                                    </a>
+                                    <span>prom.ua</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/tenet.ua.png" alt="tenet.ua">
+                                        </div>
+                                    </a>
+                                    <span>tenet.ua</span>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="sponsors">
+                                <p>Партнеры</p>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/www.liga.net.png" alt="www.liga.net">
+                                        </div>
+                                    </a>
+                                    <span>liga.net</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/prom.ua.png" alt="prom.ua">
+                                        </div>
+                                    </a>
+                                    <span>prom.ua</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/tenet.ua.png" alt="tenet.ua">
+                                        </div>
+                                    </a>
+                                    <span>tenet.ua</span>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="medias">
+                                <p>Медиа­партнеры</p>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/www.liga.net.png" alt="www.liga.net">
+                                        </div>
+                                    </a>
+                                    <span>liga.net</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/prom.ua.png" alt="prom.ua">
+                                        </div>
+                                    </a>
+                                    <span>prom.ua</span>
+                                </div>
+                                <div class="span5">
+                                    <a href="#" class="circle">
+                                        <div>
+                                            <img src="http://2014.8p.ua/img/partners/2014/tenet.ua.png" alt="tenet.ua">
+                                        </div>
+                                    </a>
+                                    <span>tenet.ua</span>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <img id="scrollToTop" src="http://40.media.tumblr.com/tumblr_l60v2kmTYF1qzn9g8o1_500.png" onclick="scrollTo('#content-new')">
+            </div>
             <div id="content" class="home-page" style="height:780px;">
                 <!--<div id="content-home">-->
                 <div class="content-shadow"></div>
@@ -456,5 +1001,6 @@
                     <script src="http://8p.ua/js/jquery.parallax.js" type="text/javascript"></script>
                     <script src="http://8p.ua/js/script-new.js?29042014" type="text/javascript"></script>
                     <script src="http://8p.ua/js/pages/home.js" type="text/javascript"></script>
+                    <script src="./js/2016.js" type="text/javascript"></script>
                 </body>
             </html>
